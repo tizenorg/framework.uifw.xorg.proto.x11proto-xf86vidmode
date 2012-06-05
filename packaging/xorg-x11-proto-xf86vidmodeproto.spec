@@ -6,7 +6,7 @@ Release:    3.8
 Group:      Development/System
 License:    MIT
 URL:        http://www.x.org
-Source0:    http://xorg.freedesktop.org/releases/individual/proto/xf86vidmodeproto-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 Source1001: packaging/xorg-x11-proto-xf86vidmodeproto.manifest 
 Provides:   xf86vidmodeproto
 BuildRequires: pkgconfig(xorg-macros)
